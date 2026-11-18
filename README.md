@@ -177,4 +177,14 @@ scripts/benchmark.py             measured latency/cost/validity per model
 
 Free instances sleep after inactivity, so the first request can take ~1 minute to wake.
 
-**Live Demo URL:** _add after deploying_
+## Live demo
+
+Free hosts I tried required payment details, so the demo is served from my own machine through a free Cloudflare quick tunnel (`RUN_DEMO.bat` / `run_demo.ps1` starts the API and the tunnel):
+
+| Requirement | URL |
+|---|---|
+| Live demo (temporary) | https://blocked-readers-miss-joy.trycloudflare.com |
+| API endpoint | https://blocked-readers-miss-joy.trycloudflare.com/link-analysis |
+| API documentation | https://blocked-readers-miss-joy.trycloudflare.com/docs |
+
+This URL is temporary: it is valid only while the demo window is running on my PC and changes each time it is restarted. If it is down, I can start it for you on request, or you can run the project locally with the Quick start above.

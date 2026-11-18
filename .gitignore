@@ -5,3 +5,5 @@ __pycache__/
 .pytest_cache/
 benchmark_outputs/
 docs/server.log
+tools/
+docs/demo-*.log

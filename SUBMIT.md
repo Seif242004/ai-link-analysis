@@ -23,7 +23,7 @@ To: hr@chivoxai.com
 Subject: <Your Name> - Python Practical Link Analysis test review
 
 1. Full name
-2. Demo link: https://<your-service>.onrender.com  (docs: /docs, endpoint: /link-analysis)
+2. Demo link: https://blocked-readers-miss-joy.trycloudflare.com  (docs: https://blocked-readers-miss-joy.trycloudflare.com/docs, endpoint: https://blocked-readers-miss-joy.trycloudflare.com/link-analysis) - temporary Cloudflare tunnel running from my PC (free hosts asked for a card); I can restart it any time
 3. GitHub repo: https://github.com/<your-username>/ai-link-analysis
 4. Contact number
 5. Current location
