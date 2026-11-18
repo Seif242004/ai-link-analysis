@@ -1,0 +1,2 @@
+http://169.254.169.254/latest/meta-data -> {"success":false,"error":{"code":"blocked_address","message":"The URL resolves to a private or reserved network address."}}
+ftp://example.com -> {"success":false,"error":{"code":"invalid_url","message":"Only http:// and https:// URLs are supported."}}

@@ -1,0 +1,459 @@
+﻿{
+    "success":  true,
+    "website":  "https://www.python.org/",
+    "brand":  {
+                  "name":  "Python",
+                  "category":  "Programming Language \u0026 Open Source Foundation",
+                  "summary":  "Python is a powerful, fast, open-source programming language that runs everywhere and is friendly to learn. The Python Software Foundation (PSF) promotes, protects, and advances the language while supporting a diverse international community of programmers. Python.org serves as the official home for downloads, documentation, community resources, and the Python Package Index (PyPI)."
+              },
+    "analysis":  {
+                     "competitor_analysis":  {
+                                                 "brand_overview":  "Python is a general-purpose, high-level programming language emphasizing readability and versatility. It is open-source (OSI-approved), cross-platform, and backed by the non-profit Python Software Foundation. The ecosystem includes a massive standard library, PyPI with thousands of third-party packages, and strong adoption in web development, AI/ML, scientific computing, education, and system administration.",
+                                                 "main_category":  "Programming Language \u0026 Developer Platform",
+                                                 "main_products_services":  [
+                                                                                "Python interpreter \u0026 runtime (CPython)",
+                                                                                "Standard library \u0026 documentation",
+                                                                                "Python Package Index (PyPI)",
+                                                                                "Python Software Foundation membership \u0026 governance",
+                                                                                "Community events (PyCon, meetups) \u0026 job board"
+                                                                            ],
+                                                 "competitors":  [
+                                                                     {
+                                                                         "name":  "JavaScript / Node.js (OpenJS Foundation)",
+                                                                         "website":  "https://openjsf.org/",
+                                                                         "main_service":  "JavaScript runtime \u0026 ecosystem",
+                                                                         "target_market":  "Web developers, full-stack engineers, enterprise",
+                                                                         "key_strength":  "Ubiquitous in browsers and servers; largest package registry (npm)",
+                                                                         "weaknesses":  [
+                                                                                            "Fragmented tooling",
+                                                                                            "Language quirks",
+                                                                                            "Single-threaded event loop limits CPU-bound work"
+                                                                                        ],
+                                                                         "opportunity":  "Deno/Bun adoption; WebAssembly expansion",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Java (Eclipse Foundation / Oracle)",
+                                                                         "website":  "https://www.eclipse.org/",
+                                                                         "main_service":  "JVM platform \u0026 enterprise tooling",
+                                                                         "target_market":  "Enterprise backend, Android (historical), big data",
+                                                                         "key_strength":  "Mature enterprise ecosystem, strong typing, performance at scale",
+                                                                         "weaknesses":  [
+                                                                                            "Verbose syntax",
+                                                                                            "Slower startup",
+                                                                                            "Licensing complexity (Oracle JDK)"
+                                                                                        ],
+                                                                         "opportunity":  "GraalVM native images; Project Loom virtual threads",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Go (Google-backed, open source)",
+                                                                         "website":  "https://go.dev/",
+                                                                         "main_service":  "Compiled systems language \u0026 toolchain",
+                                                                         "target_market":  "Cloud-native, DevOps, microservices, CLI tools",
+                                                                         "key_strength":  "Fast compilation, tiny binaries, built-in concurrency (goroutines)",
+                                                                         "weaknesses":  [
+                                                                                            "Limited generics (until recently)",
+                                                                                            "No REPL",
+                                                                                            "Smaller ML/AI ecosystem"
+                                                                                        ],
+                                                                         "opportunity":  "WASI/WebAssembly; generics maturity",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Rust (Rust Foundation)",
+                                                                         "website":  "https://www.rust-lang.org/",
+                                                                         "main_service":  "Memory-safe systems language",
+                                                                         "target_market":  "Systems programming, embedded, security-critical, WebAssembly",
+                                                                         "key_strength":  "Zero-cost abstractions, fearless concurrency, no GC",
+                                                                         "weaknesses":  [
+                                                                                            "Steep learning curve",
+                                                                                            "Long compile times",
+                                                                                            "Smaller web framework ecosystem"
+                                                                                        ],
+                                                                         "opportunity":  "Linux kernel adoption; WASM dominance",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "R (R Foundation)",
+                                                                         "website":  "https://www.r-project.org/",
+                                                                         "main_service":  "Statistical computing language \u0026 CRAN",
+                                                                         "target_market":  "Statisticians, data scientists, academia, biotech",
+                                                                         "key_strength":  "Purpose-built for statistics; vast CRAN package repository",
+                                                                         "weaknesses":  [
+                                                                                            "General-purpose weakness",
+                                                                                            "Performance on large data",
+                                                                                            "Single-threaded"
+                                                                                        ],
+                                                                         "opportunity":  "Python interop (reticulate); cloud notebooks",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     }
+                                                                 ],
+                                                 "strengths":  [
+                                                                   "Beginner-friendly syntax with \u0027executable pseudocode\u0027 readability",
+                                                                   "Massive standard library (\u0027batteries included\u0027) + 500k+ packages on PyPI",
+                                                                   "Dominant in AI/ML (TensorFlow, PyTorch, scikit-learn) and data science (pandas, NumPy)",
+                                                                   "Cross-platform: Windows, macOS, Linux, mobile (Android/iOS via tools), WebAssembly",
+                                                                   "Strong governance via PSF (non-profit) with transparent release cycle (annual major versions)",
+                                                                   "Vibrant global community: PyCon conferences, local meetups, diverse contributor base",
+                                                                   "Free for commercial use under OSI-approved license"
+                                                               ],
+                                                 "opportunities":  [
+                                                                       "Improve packaging/distribution story (lockfiles, reproducible builds) to match Cargo/npm",
+                                                                       "Accelerate performance via CPython 3.13+ JIT, free-threading, and sub-interpreters",
+                                                                       "Expand mobile/WASM first-class support (BeeWare, Pyodide) for client-side apps",
+                                                                       "Strengthen enterprise governance narrative (SBOM, supply-chain security, LTS clarity)",
+                                                                       "Grow PSF membership \u0026 sponsorship diversity beyond current corporate donors",
+                                                                       "Formalize curriculum partnerships for education (K-12, bootcamps, university)",
+                                                                       "Invest in developer experience: better error messages, tooling unification (pip/venv/pyproject.toml)"
+                                                                   ],
+                                                 "comparison_table":  [
+                                                                          {
+                                                                              "attribute":  "Brand Name",
+                                                                              "your_brand":  "Python",
+                                                                              "competitors":  {
+                                                                                                  "JavaScript / Node.js (OpenJS Foundation)":  "JavaScript / Node.js (OpenJS Foundation)",
+                                                                                                  "Java (Eclipse Foundation / Oracle)":  "Java (Eclipse Foundation / Oracle)",
+                                                                                                  "Go (Google-backed, open source)":  "Go (Google-backed, open source)",
+                                                                                                  "Rust (Rust Foundation)":  "Rust (Rust Foundation)",
+                                                                                                  "R (R Foundation)":  "R (R Foundation)"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Main Service",
+                                                                              "your_brand":  "Python interpreter \u0026 runtime (CPython)",
+                                                                              "competitors":  {
+                                                                                                  "JavaScript / Node.js (OpenJS Foundation)":  "JavaScript runtime \u0026 ecosystem",
+                                                                                                  "Java (Eclipse Foundation / Oracle)":  "JVM platform \u0026 enterprise tooling",
+                                                                                                  "Go (Google-backed, open source)":  "Compiled systems language \u0026 toolchain",
+                                                                                                  "Rust (Rust Foundation)":  "Memory-safe systems language",
+                                                                                                  "R (R Foundation)":  "Statistical computing language \u0026 CRAN"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Target Market",
+                                                                              "your_brand":  "Software developers (backend, full-stack, CLI)",
+                                                                              "competitors":  {
+                                                                                                  "JavaScript / Node.js (OpenJS Foundation)":  "Web developers, full-stack engineers, enterprise",
+                                                                                                  "Java (Eclipse Foundation / Oracle)":  "Enterprise backend, Android (historical), big data",
+                                                                                                  "Go (Google-backed, open source)":  "Cloud-native, DevOps, microservices, CLI tools",
+                                                                                                  "Rust (Rust Foundation)":  "Systems programming, embedded, security-critical, WebAssembly",
+                                                                                                  "R (R Foundation)":  "Statisticians, data scientists, academia, biotech"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Key Strength",
+                                                                              "your_brand":  "Beginner-friendly syntax with \u0027executable pseudocode\u0027 readability",
+                                                                              "competitors":  {
+                                                                                                  "JavaScript / Node.js (OpenJS Foundation)":  "Ubiquitous in browsers and servers; largest package registry (npm)",
+                                                                                                  "Java (Eclipse Foundation / Oracle)":  "Mature enterprise ecosystem, strong typing, performance at scale",
+                                                                                                  "Go (Google-backed, open source)":  "Fast compilation, tiny binaries, built-in concurrency (goroutines)",
+                                                                                                  "Rust (Rust Foundation)":  "Zero-cost abstractions, fearless concurrency, no GC",
+                                                                                                  "R (R Foundation)":  "Purpose-built for statistics; vast CRAN package repository"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Opportunity",
+                                                                              "your_brand":  "Improve packaging/distribution story (lockfiles, reproducible builds) to match Cargo/npm",
+                                                                              "competitors":  {
+                                                                                                  "JavaScript / Node.js (OpenJS Foundation)":  "Deno/Bun adoption; WebAssembly expansion",
+                                                                                                  "Java (Eclipse Foundation / Oracle)":  "GraalVM native images; Project Loom virtual threads",
+                                                                                                  "Go (Google-backed, open source)":  "WASI/WebAssembly; generics maturity",
+                                                                                                  "Rust (Rust Foundation)":  "Linux kernel adoption; WASM dominance",
+                                                                                                  "R (R Foundation)":  "Python interop (reticulate); cloud notebooks"
+                                                                                              }
+                                                                          }
+                                                                      ]
+                                             },
+                     "target_search_queries":  [
+                                                   {
+                                                       "query":  "download Python 3.15 for Windows macOS Linux",
+                                                       "platforms":  [
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Navigational/Transactional - user wants the official installer",
+                                                       "business_relevance":  "Primary acquisition channel for new and upgrading users",
+                                                       "target_audience":  "Developers, students, data scientists, DevOps engineers"
+                                                   },
+                                                   {
+                                                       "query":  "Python tutorial for beginners non-programmers",
+                                                       "platforms":  [
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Informational - learning intent",
+                                                       "business_relevance":  "Drives adoption at the top of funnel; feeds community growth",
+                                                       "target_audience":  "Students, career switchers, hobbyists, educators"
+                                                   },
+                                                   {
+                                                       "query":  "Python vs JavaScript for web development 2025",
+                                                       "platforms":  [
+                                                                         "Google",
+                                                                         "LinkedIn",
+                                                                         "X"
+                                                                     ],
+                                                       "intent":  "Commercial investigation - technology selection",
+                                                       "business_relevance":  "Positions Python for backend/API roles against Node.js",
+                                                       "target_audience":  "Full-stack developers, CTOs, technical leads"
+                                                   },
+                                                   {
+                                                       "query":  "PyPI package publishing guide security best practices",
+                                                       "platforms":  [
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Informational/Procedural - contributor workflow",
+                                                       "business_relevance":  "Supports ecosystem health; reduces supply-chain risk",
+                                                       "target_audience":  "Library authors, maintainers, DevSecOps engineers"
+                                                   },
+                                                   {
+                                                       "query":  "Python Software Foundation membership benefits donate",
+                                                       "platforms":  [
+                                                                         "Google",
+                                                                         "Facebook",
+                                                                         "Instagram",
+                                                                         "LinkedIn",
+                                                                         "X"
+                                                                     ],
+                                                       "intent":  "Transactional/Navigational - community support",
+                                                       "business_relevance":  "Funds PSF operations, grants, events, infrastructure",
+                                                       "target_audience":  "Individual developers, corporate sponsors, educators"
+                                                   }
+                                               ],
+                     "seo_improvements":  {
+                                              "primary_keyword":  "Python programming language",
+                                              "secondary_keywords":  [
+                                                                         "Python download",
+                                                                         "Python tutorial",
+                                                                         "Python documentation",
+                                                                         "Python packages PyPI",
+                                                                         "Python Software Foundation"
+                                                                     ],
+                                              "long_tail_keywords":  [
+                                                                         "how to install Python on Windows 11",
+                                                                         "Python for data science beginner course",
+                                                                         "best Python web framework Django FastAPI",
+                                                                         "Python 3.15 new features performance",
+                                                                         "contribute to Python core development"
+                                                                     ],
+                                              "business_keywords":  [
+                                                                        "Python enterprise adoption",
+                                                                        "Python AI ML libraries",
+                                                                        "Python job board remote",
+                                                                        "PSF sponsorship tiers",
+                                                                        "Python conference PyCon schedule"
+                                                                    ],
+                                              "recommended_title":  "Python Programming Language â Official Download, Docs \u0026 Community | Python.org",
+                                              "title_structure":  "Primary Keyword | Value Proposition | Brand",
+                                              "meta_description":  "The official home of Python: download the latest release, browse docs \u0026 tutorials, explore 500k+ PyPI packages, and join the global Python community.",
+                                              "supporting_content":  [
+                                                                         {
+                                                                             "type":  "Service landing page",
+                                                                             "title":  "Python for AI \u0026 Machine Learning â Ecosystem Guide",
+                                                                             "rationale":  "Captures high-intent ML developers; showcases PyTorch, TensorFlow, scikit-learn, and PyPI packages"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Industry page",
+                                                                             "title":  "Python in Enterprise â Security, LTS \u0026 Governance",
+                                                                             "rationale":  "Addresses CTO/VP Engineering concerns: supply-chain security, support windows, compliance"
+                                                                         },
+                                                                         {
+                                                                             "type":  "FAQ",
+                                                                             "title":  "Python Version FAQ â Which Version Should I Use?",
+                                                                             "rationale":  "Reduces friction for newcomers; targets \u0027Python 3.12 vs 3.13\u0027 long-tail queries"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Blog topic",
+                                                                             "title":  "What\u0027s New in Python 3.15: Performance, Typing \u0026 Standard Library",
+                                                                             "rationale":  "Evergreen update content; drives repeat visits and positions Python as modern/innovative"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Supporting article",
+                                                                             "title":  "Migrating from Python 2 to 3 â Complete Checklist",
+                                                                             "rationale":  "Long-tail evergreen; serves legacy codebase maintainers still searching migration help"
+                                                                         }
+                                                                     ],
+                                              "current_title":  "Welcome to Python.org",
+                                              "current_meta_description":  "The official home of the Python Programming Language",
+                                              "title_length":  78,
+                                              "meta_description_length":  149,
+                                              "note":  "Keywords are AI-suggested; no search-volume data is provided because no keyword data source is connected."
+                                          },
+                     "top_services":  [
+                                          {
+                                              "name":  "Python Interpreter \u0026 Runtime (CPython)",
+                                              "description":  "The reference implementation of Python, released annually with performance improvements, new syntax, and standard library enhancements. Available for Windows, macOS, Linux, and other platforms.",
+                                              "target_industry":  "All software development",
+                                              "target_customer":  "Developers, data scientists, engineers, students",
+                                              "main_benefit":  "Runs everywhere, free for commercial use, backed by 30+ years of stability",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Standard Library \u0026 Documentation",
+                                              "description":  "Comprehensive \u0027batteries-included\u0027 library covering file I/O, networking, data formats, concurrency, testing, and more. Full tutorials, library reference, and language reference hosted on docs.python.org.",
+                                              "target_industry":  "All",
+                                              "target_customer":  "Developers at every level",
+                                              "main_benefit":  "Reduces third-party dependencies; authoritative, versioned docs with beginner guides",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Python Package Index (PyPI)",
+                                              "description":  "Official third-party package repository hosting 500,000+ libraries for web, AI, scientific computing, CLI tools, and more. Integrated with pip for one-command installation.",
+                                              "target_industry":  "All",
+                                              "target_customer":  "Application developers, library authors, DevOps",
+                                              "main_benefit":  "Largest Python package ecosystem; trusted distribution channel with security scanning",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Python Software Foundation (PSF) Membership \u0026 Grants",
+                                              "description":  "Non-profit foundation managing Python\u0027s IP, funding sprints/conferences, awarding grants for education/outreach, and governing the language via the Steering Council.",
+                                              "target_industry":  "Open source, education, enterprise",
+                                              "target_customer":  "Individual contributors, corporate sponsors, educators, event organizers",
+                                              "main_benefit":  "Directly funds language development, community diversity, and ecosystem sustainability",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Community Job Board \u0026 Events (PyCon, Meetups)",
+                                              "description":  "Relaunched community-run job board for Python roles and a global calendar of PyCon conferences, Django Girls workshops, and local user-group meetups.",
+                                              "target_industry":  "Tech hiring, community building",
+                                              "target_customer":  "Job seekers, hiring managers, conference attendees, speakers",
+                                              "main_benefit":  "Centralized, trusted venue for Python-specific careers and networking",
+                                              "source":  "website"
+                                          }
+                                      ],
+                     "target_audience":  {
+                                             "primary_audience":  [
+                                                                      "Software developers (backend, full-stack, CLI)",
+                                                                      "Data scientists \u0026 ML engineers",
+                                                                      "Students \u0026 educators (K-12, university, bootcamps)",
+                                                                      "DevOps / SRE / platform engineers",
+                                                                      "Scientific researchers \u0026 analysts"
+                                                                  ],
+                                             "secondary_audience":  [
+                                                                        "Hobbyists \u0026 makers (Raspberry Pi, microcontrollers)",
+                                                                        "Technical writers \u0026 documentation contributors",
+                                                                        "Security researchers \u0026 auditors",
+                                                                        "Enterprise architects evaluating tech stacks",
+                                                                        "Non-profit / civic tech organizers"
+                                                                    ],
+                                             "industries":  [
+                                                                "Technology / SaaS",
+                                                                "Financial services \u0026 fintech",
+                                                                "Healthcare \u0026 biotech",
+                                                                "Education \u0026 edtech",
+                                                                "Scientific research \u0026 academia",
+                                                                "Media \u0026 entertainment (VFX, pipelines)",
+                                                                "Government \u0026 civic tech",
+                                                                "Retail \u0026 e-commerce"
+                                                            ],
+                                             "business_types":  [
+                                                                    "Startups (seed to scale)",
+                                                                    "Mid-market companies",
+                                                                    "Large enterprises (Fortune 500)",
+                                                                    "Consulting / dev shops",
+                                                                    "Open-source projects \u0026 foundations",
+                                                                    "Universities \u0026 research labs"
+                                                                ],
+                                             "customer_profiles":  [
+                                                                       "First-time programmer learning via Beginner\u0027s Guide",
+                                                                       "Senior engineer choosing Python for a new microservice",
+                                                                       "Data scientist training models with PyTorch/TensorFlow",
+                                                                       "DevOps engineer automating infrastructure with Ansible/Python",
+                                                                       "Educator designing CS1 curriculum around Python",
+                                                                       "Open-source maintainer publishing to PyPI",
+                                                                       "CTO evaluating Python for enterprise standardization"
+                                                                   ],
+                                             "geographic_focus":  "Global (PSF is international; Python.org serves all countries; localized docs translations sponsored)",
+                                             "customer_needs":  [
+                                                                    "Reliable, secure, up-to-date interpreter downloads",
+                                                                    "Clear, versioned documentation with examples",
+                                                                    "Discoverable, vetted third-party packages",
+                                                                    "Career opportunities \u0026 hiring channels",
+                                                                    "Community support (forums, Discord, mailing lists, IRC)",
+                                                                    "Conference \u0026 learning events (virtual \u0026 in-person)",
+                                                                    "Language stability \u0026 predictable release cadence",
+                                                                    "Supply-chain security (SBOM, signed releases, 2FA on PyPI)",
+                                                                    "Mobile / WebAssembly deployment paths",
+                                                                    "Enterprise-grade support options (third-party vendors)"
+                                                                ],
+                                             "customer_interests":  [
+                                                                        "AI/ML model development \u0026 deployment",
+                                                                        "Web frameworks (Django, FastAPI, Flask, Starlette)",
+                                                                        "Data analysis \u0026 visualization (pandas, Polars, Matplotlib, Plotly)",
+                                                                        "Automation \u0026 scripting (Ansible, Fabric, custom CLIs)",
+                                                                        "Testing \u0026 CI/CD (pytest, tox, GitHub Actions)",
+                                                                        "Type safety \u0026 static analysis (mypy, pyright, ruff)",
+                                                                        "Packaging \u0026 distribution (pyproject.toml, hatch, poetry)",
+                                                                        "Async programming (asyncio, anyio, trio)",
+                                                                        "Performance optimization (Cython, Numba, PyPy, 3.13+ JIT)",
+                                                                        "Community contribution (core dev, docs, translations, PEPs)"
+                                                                    ],
+                                             "recommended_segments":  [
+                                                                          "New Learners (students, career switchers) â onboard via Beginner\u0027s Guide \u0026 Edu-SIG",
+                                                                          "AI/ML Practitioners â showcase PyPI ML packages, GPU support, JIT gains",
+                                                                          "Enterprise Decision-Makers â security, LTS, governance, case studies",
+                                                                          "Open-Source Maintainers â packaging tooling, PyPI trust, funding grants",
+                                                                          "Educators â curriculum resources, Trinket/Colab integration, outreach grants"
+                                                                      ],
+                                             "audience_table":  [
+                                                                    {
+                                                                        "audience":  "First-time programmer",
+                                                                        "business_type":  "Student / self-learner",
+                                                                        "requirement":  "Free, easy install; guided tutorial; error-friendly REPL"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Data scientist",
+                                                                        "business_type":  "Tech / research / finance",
+                                                                        "requirement":  "NumPy/Pandas/PyTorch compatibility; Jupyter integration; GPU support"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Backend engineer",
+                                                                        "business_type":  "SaaS / startup / enterprise",
+                                                                        "requirement":  "Async frameworks; type hints; Docker images; 12-factor config"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "DevOps engineer",
+                                                                        "business_type":  "Cloud / platform team",
+                                                                        "requirement":  "CLI tooling; cross-platform stdlib; minimal container images"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Educator",
+                                                                        "business_type":  "University / bootcamp / K-12",
+                                                                        "requirement":  "Curriculum materials; browser-based REPL; LMS integration"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Open-source maintainer",
+                                                                        "business_type":  "Community / foundation",
+                                                                        "requirement":  "PyPI publishing; CI templates; security scanning; funding avenues"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "CTO / VP Engineering",
+                                                                        "business_type":  "Enterprise / mid-market",
+                                                                        "requirement":  "Governance model; LTS clarity; vendor support ecosystem; compliance"
+                                                                    }
+                                                                ]
+                                         }
+                 },
+    "meta":  {
+                 "provider":  "nvidia",
+                 "model":  "nvidia/nemotron-3-ultra-550b-a55b",
+                 "used_fallback":  false,
+                 "input_tokens":  2406,
+                 "output_tokens":  3902,
+                 "llm_latency_ms":  51953,
+                 "total_ms":  72,
+                 "estimated_cost_usd":  null,
+                 "cached":  true,
+                 "pages_analyzed":  [
+                                        "https://www.python.org/",
+                                        "https://www.python.org/about/",
+                                        "https://www.python.org/about/apps/"
+                                    ]
+             },
+    "warnings":  [
+                     "Competitors, keywords and queries are AI-generated suggestions; no search-volume or ranking data is included."
+                 ]
+}

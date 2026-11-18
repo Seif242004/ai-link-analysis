@@ -1,0 +1,265 @@
+{
+  "success": true,
+  "website": "http://93.184.216.34/",
+  "brand": {
+    "name": "Acme Web Studio",
+    "category": "Web Development",
+    "summary": "Affordable websites for small businesses."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Acme builds websites and stores for small businesses in Cairo.",
+      "main_category": "Web Development",
+      "main_products_services": [
+        "Web design",
+        "E-commerce"
+      ],
+      "competitors": [
+        {
+          "name": "Wix",
+          "website": "https://www.wix.com/",
+          "main_service": "Website builder",
+          "target_market": "DIY",
+          "key_strength": "Brand",
+          "weaknesses": [
+            "Generic"
+          ],
+          "opportunity": "More support",
+          "source": "ai_suggestion",
+          "verification": "unverified_ai_suggestion"
+        },
+        {
+          "name": "Squarespace",
+          "website": null,
+          "main_service": "Builder",
+          "target_market": "Creatives",
+          "key_strength": "Templates",
+          "weaknesses": [],
+          "opportunity": "x",
+          "source": "ai_suggestion",
+          "verification": "unverified_ai_suggestion"
+        },
+        {
+          "name": "Shopify",
+          "website": null,
+          "main_service": "E-commerce",
+          "target_market": "Retail",
+          "key_strength": "Apps",
+          "weaknesses": [],
+          "opportunity": "x",
+          "source": "ai_suggestion",
+          "verification": "unverified_ai_suggestion"
+        }
+      ],
+      "strengths": [
+        "Affordable pricing"
+      ],
+      "opportunities": [
+        "Add case studies"
+      ],
+      "comparison_table": [
+        {
+          "attribute": "Brand Name",
+          "your_brand": "Acme Web Studio",
+          "competitors": {
+            "Wix": "Wix",
+            "Squarespace": "Squarespace",
+            "Shopify": "Shopify"
+          }
+        },
+        {
+          "attribute": "Main Service",
+          "your_brand": "Web design",
+          "competitors": {
+            "Wix": "Website builder",
+            "Squarespace": "Builder",
+            "Shopify": "E-commerce"
+          }
+        },
+        {
+          "attribute": "Target Market",
+          "your_brand": "Small business owners",
+          "competitors": {
+            "Wix": "DIY",
+            "Squarespace": "Creatives",
+            "Shopify": "Retail"
+          }
+        },
+        {
+          "attribute": "Key Strength",
+          "your_brand": "Affordable pricing",
+          "competitors": {
+            "Wix": "Brand",
+            "Squarespace": "Templates",
+            "Shopify": "Apps"
+          }
+        },
+        {
+          "attribute": "Opportunity",
+          "your_brand": "Add case studies",
+          "competitors": {
+            "Wix": "More support",
+            "Squarespace": "x",
+            "Shopify": "x"
+          }
+        }
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "query 0",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "",
+        "target_audience": ""
+      },
+      {
+        "query": "query 1",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "",
+        "target_audience": ""
+      },
+      {
+        "query": "query 2",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "",
+        "target_audience": ""
+      },
+      {
+        "query": "query 3",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "",
+        "target_audience": ""
+      },
+      {
+        "query": "query 4",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "",
+        "target_audience": ""
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "web design cairo",
+      "secondary_keywords": [
+        "e-commerce"
+      ],
+      "long_tail_keywords": [],
+      "business_keywords": [],
+      "recommended_title": "Web Design in Cairo | Acme Web Studio",
+      "title_structure": "",
+      "meta_description": "Affordable websites for small businesses.",
+      "supporting_content": [
+        {
+          "type": "FAQ",
+          "title": "How much does a website cost?",
+          "rationale": "High intent"
+        }
+      ],
+      "current_title": "Acme Web Studio | Websites for Small Business",
+      "current_meta_description": "Acme builds affordable websites and online stores.",
+      "title_length": 37,
+      "meta_description_length": 41,
+      "note": "Keywords are AI-suggested; no search-volume data is provided because no keyword data source is connected."
+    },
+    "top_services": [
+      {
+        "name": "Service 0",
+        "description": "d",
+        "target_industry": "",
+        "target_customer": "",
+        "main_benefit": "",
+        "source": "website"
+      },
+      {
+        "name": "Service 1",
+        "description": "d",
+        "target_industry": "",
+        "target_customer": "",
+        "main_benefit": "",
+        "source": "website"
+      },
+      {
+        "name": "Service 2",
+        "description": "d",
+        "target_industry": "",
+        "target_customer": "",
+        "main_benefit": "",
+        "source": "website"
+      },
+      {
+        "name": "Service 3",
+        "description": "d",
+        "target_industry": "",
+        "target_customer": "",
+        "main_benefit": "",
+        "source": "website"
+      },
+      {
+        "name": "Service 4",
+        "description": "d",
+        "target_industry": "",
+        "target_customer": "",
+        "main_benefit": "",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Small business owners"
+      ],
+      "secondary_audience": [
+        "Startups"
+      ],
+      "industries": [
+        "Retail"
+      ],
+      "business_types": [],
+      "customer_profiles": [],
+      "geographic_focus": null,
+      "customer_needs": [
+        "Online presence"
+      ],
+      "customer_interests": [],
+      "recommended_segments": [],
+      "audience_table": []
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "used_fallback": false,
+    "input_tokens": 4000,
+    "output_tokens": 2500,
+    "llm_latency_ms": 1200,
+    "total_ms": 9,
+    "estimated_cost_usd": 0.00475,
+    "cached": false,
+    "pages_analyzed": [
+      "http://93.184.216.34/",
+      "http://93.184.216.34/about",
+      "http://93.184.216.34/services"
+    ]
+  },
+  "warnings": [
+    "Competitors, keywords and queries are AI-generated suggestions; no search-volume or ranking data is included."
+  ]
+}

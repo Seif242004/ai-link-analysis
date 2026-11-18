@@ -1,0 +1,25 @@
+$ curl -s localhost:4000/health
+{"status":"ok"}
+
+$ POST invalid scheme
+{"success":false,"error":{"code":"invalid_url","message":"Only http:// and https:// URLs are supported."}}
+HTTP 422
+
+$ POST SSRF: cloud metadata
+{"success":false,"error":{"code":"blocked_address","message":"The URL resolves to a private or reserved network address."}}
+HTTP 400
+
+$ POST SSRF: localhost
+{"success":false,"error":{"code":"invalid_url","message":"Only the default web ports (80/443) are allowed."}}
+HTTP 422
+
+$ POST missing body
+{"success":false,"error":{"code":"invalid_request","message":"Request body must be JSON like {\"url\": \"https://example.com\"}."}}
+HTTP 422
+
+$ POST non-existent domain
+{"success":false,"error":{"code":"website_unreachable","message":"DNS lookup failed for 'this-domain-does-not-exist-xyz123.com'."}}
+HTTP 422
+
+$ GET /docs
+HTTP 200

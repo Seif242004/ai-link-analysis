@@ -1,0 +1,435 @@
+﻿{
+    "success":  true,
+    "website":  "https://www.wikipedia.org/",
+    "brand":  {
+                  "name":  "Wikipedia",
+                  "category":  "Online Encyclopedia / Knowledge Platform",
+                  "summary":  "Wikipedia is a free, multilingual online encyclopedia created and edited by volunteers worldwide. Hosted by the nonprofit Wikimedia Foundation, it offers over 60 million articles across 300+ languages, operating without ads or corporate ownership to provide neutral, reliable knowledge."
+              },
+    "analysis":  {
+                     "competitor_analysis":  {
+                                                 "brand_overview":  "Wikipedia is the world\u0027s largest free encyclopedia, sustained by donations and volunteer contributions. It distinguishes itself through a nonprofit model, human-curated content, and a commitment to neutralityâpositioning itself as \u0027the internet we were promised.\u0027",
+                                                 "main_category":  "Online Reference \u0026 Knowledge",
+                                                 "main_products_services":  [
+                                                                                "Free multilingual encyclopedia",
+                                                                                "Community-driven content creation and editing",
+                                                                                "Wikimedia Commons (media repository)",
+                                                                                "Wikidata (structured knowledge base)",
+                                                                                "Sister projects: Wiktionary, Wikibooks, Wikinews, Wikiversity, Wikivoyage, Wikisource"
+                                                                            ],
+                                                 "competitors":  [
+                                                                     {
+                                                                         "name":  "Britannica",
+                                                                         "website":  "https://www.britannica.com/",
+                                                                         "main_service":  "Expert-authored encyclopedia with editorial oversight",
+                                                                         "target_market":  "Students, educators, professionals seeking authoritative reference",
+                                                                         "key_strength":  "Brand trust, academic credibility, curated expert content",
+                                                                         "weaknesses":  [
+                                                                                            "Paywall limits access",
+                                                                                            "Smaller scope",
+                                                                                            "Slower updates",
+                                                                                            "No community editing"
+                                                                                        ],
+                                                                         "opportunity":  "Wikipedia\u0027s open model covers vastly more topics and updates in real time",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Google Search (Knowledge Panels / Featured Snippets)",
+                                                                         "website":  "https://www.google.com/",
+                                                                         "main_service":  "AI-summarized answers sourced from the web (including Wikipedia)",
+                                                                         "target_market":  "General internet users seeking quick answers",
+                                                                         "key_strength":  "Ubiquitous distribution, instant answers, multimodal search",
+                                                                         "weaknesses":  [
+                                                                                            "No editorial control",
+                                                                                            "Hallucination risk",
+                                                                                            "Opaque sourcing",
+                                                                                            "Ad-driven model"
+                                                                                        ],
+                                                                         "opportunity":  "Wikipedia remains the primary source for Google\u0027s own knowledge panels",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "WikiHow",
+                                                                         "website":  "https://www.wikihow.com/",
+                                                                         "main_service":  "How-to guides with step-by-step instructions",
+                                                                         "target_market":  "Users seeking practical, procedural knowledge",
+                                                                         "key_strength":  "Action-oriented format, visual guides, community contributions",
+                                                                         "weaknesses":  [
+                                                                                            "Narrower scope (procedural only)",
+                                                                                            "Ad-supported",
+                                                                                            "Less academic rigor"
+                                                                                        ],
+                                                                         "opportunity":  "Complementary rather than competitive; Wikipedia covers conceptual knowledge",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Scholarpedia",
+                                                                         "website":  "https://www.scholarpedia.org/",
+                                                                         "main_service":  "Peer-reviewed encyclopedia written by scholars",
+                                                                         "target_market":  "Academics, researchers, advanced students",
+                                                                         "key_strength":  "Academic rigor, expert authorship, citation credibility",
+                                                                         "weaknesses":  [
+                                                                                            "Very small article count",
+                                                                                            "Niche topics only",
+                                                                                            "Slow publication",
+                                                                                            "Limited accessibility"
+                                                                                        ],
+                                                                         "opportunity":  "Wikipedia\u0027s breadth and accessibility serve a far wider audience",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_unreachable"
+                                                                     },
+                                                                     {
+                                                                         "name":  "Microsoft Copilot / ChatGPT (LLM-based answer engines)",
+                                                                         "website":  "https://copilot.microsoft.com/",
+                                                                         "main_service":  "Generative AI answers synthesized from training data (incl. Wikipedia)",
+                                                                         "target_market":  "Knowledge workers, students, general users",
+                                                                         "key_strength":  "Conversational interface, synthesis across sources, creative tasks",
+                                                                         "weaknesses":  [
+                                                                                            "Hallucinations",
+                                                                                            "No verifiable citations",
+                                                                                            "Opaque training data",
+                                                                                            "Commercial incentives"
+                                                                                        ],
+                                                                         "opportunity":  "Wikipedia\u0027s verifiable, cited, human-curated content remains a trust anchor",
+                                                                         "source":  "ai_suggestion",
+                                                                         "verification":  "domain_reachable"
+                                                                     }
+                                                                 ],
+                                                 "strengths":  [
+                                                                   "Nonprofit, ad-free model aligned with public interest",
+                                                                   "Massive multilingual coverage (300+ languages, 60M+ articles)",
+                                                                   "Community governance and transparent editorial processes",
+                                                                   "High domain authority and trust; primary source for search engines and LLMs",
+                                                                   "Real-time updates on breaking events and evolving topics",
+                                                                   "Free access globally with no paywalls or tracking"
+                                                               ],
+                                                 "opportunities":  [
+                                                                       "Improve onboarding and retention for new editors to counter contributor decline",
+                                                                       "Expand partnerships with cultural institutions (GLAM) for underrepresented topics",
+                                                                       "Develop better mobile editing tools to grow contributor base in Global South",
+                                                                       "Leverage Wikidata for structured knowledge queries and AI training data licensing",
+                                                                       "Strengthen donor conversion through personalized impact storytelling",
+                                                                       "Enhance multimedia integration (audio, video, 3D) via Wikimedia Commons"
+                                                                   ],
+                                                 "comparison_table":  [
+                                                                          {
+                                                                              "attribute":  "Brand Name",
+                                                                              "your_brand":  "Wikipedia",
+                                                                              "competitors":  {
+                                                                                                  "Britannica":  "Britannica",
+                                                                                                  "Google Search (Knowledge Panels / Featured Snippets)":  "Google Search (Knowledge Panels / Featured Snippets)",
+                                                                                                  "WikiHow":  "WikiHow",
+                                                                                                  "Scholarpedia":  "Scholarpedia",
+                                                                                                  "Microsoft Copilot / ChatGPT (LLM-based answer engines)":  "Microsoft Copilot / ChatGPT (LLM-based answer engines)"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Main Service",
+                                                                              "your_brand":  "Free multilingual encyclopedia",
+                                                                              "competitors":  {
+                                                                                                  "Britannica":  "Expert-authored encyclopedia with editorial oversight",
+                                                                                                  "Google Search (Knowledge Panels / Featured Snippets)":  "AI-summarized answers sourced from the web (including Wikipedia)",
+                                                                                                  "WikiHow":  "How-to guides with step-by-step instructions",
+                                                                                                  "Scholarpedia":  "Peer-reviewed encyclopedia written by scholars",
+                                                                                                  "Microsoft Copilot / ChatGPT (LLM-based answer engines)":  "Generative AI answers synthesized from training data (incl. Wikipedia)"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Target Market",
+                                                                              "your_brand":  "Students (K-12 through postgraduate)",
+                                                                              "competitors":  {
+                                                                                                  "Britannica":  "Students, educators, professionals seeking authoritative reference",
+                                                                                                  "Google Search (Knowledge Panels / Featured Snippets)":  "General internet users seeking quick answers",
+                                                                                                  "WikiHow":  "Users seeking practical, procedural knowledge",
+                                                                                                  "Scholarpedia":  "Academics, researchers, advanced students",
+                                                                                                  "Microsoft Copilot / ChatGPT (LLM-based answer engines)":  "Knowledge workers, students, general users"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Key Strength",
+                                                                              "your_brand":  "Nonprofit, ad-free model aligned with public interest",
+                                                                              "competitors":  {
+                                                                                                  "Britannica":  "Brand trust, academic credibility, curated expert content",
+                                                                                                  "Google Search (Knowledge Panels / Featured Snippets)":  "Ubiquitous distribution, instant answers, multimodal search",
+                                                                                                  "WikiHow":  "Action-oriented format, visual guides, community contributions",
+                                                                                                  "Scholarpedia":  "Academic rigor, expert authorship, citation credibility",
+                                                                                                  "Microsoft Copilot / ChatGPT (LLM-based answer engines)":  "Conversational interface, synthesis across sources, creative tasks"
+                                                                                              }
+                                                                          },
+                                                                          {
+                                                                              "attribute":  "Opportunity",
+                                                                              "your_brand":  "Improve onboarding and retention for new editors to counter contributor decline",
+                                                                              "competitors":  {
+                                                                                                  "Britannica":  "Wikipedia\u0027s open model covers vastly more topics and updates in real time",
+                                                                                                  "Google Search (Knowledge Panels / Featured Snippets)":  "Wikipedia remains the primary source for Google\u0027s own knowledge panels",
+                                                                                                  "WikiHow":  "Complementary rather than competitive; Wikipedia covers conceptual knowledge",
+                                                                                                  "Scholarpedia":  "Wikipedia\u0027s breadth and accessibility serve a far wider audience",
+                                                                                                  "Microsoft Copilot / ChatGPT (LLM-based answer engines)":  "Wikipedia\u0027s verifiable, cited, human-curated content remains a trust anchor"
+                                                                                              }
+                                                                          }
+                                                                      ]
+                                             },
+                     "target_search_queries":  [
+                                                   {
+                                                       "query":  "free online encyclopedia",
+                                                       "platforms":  [
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Informational - users seeking a no-cost, comprehensive reference source",
+                                                       "business_relevance":  "Core brand positioning; captures high-intent users comparing reference tools",
+                                                       "target_audience":  "Students, researchers, general knowledge seekers"
+                                                   },
+                                                   {
+                                                       "query":  "how to edit Wikipedia",
+                                                       "platforms":  [
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Instructional - potential contributors learning contribution workflow",
+                                                       "business_relevance":  "Grows the volunteer editor base essential to content sustainability",
+                                                       "target_audience":  "Subject-matter experts, hobbyists, students, GLAM professionals"
+                                                   },
+                                                   {
+                                                       "query":  "Wikipedia donation impact",
+                                                       "platforms":  [
+                                                                         "Facebook",
+                                                                         "Instagram"
+                                                                     ],
+                                                       "intent":  "Transactional/Informational - donors evaluating impact before giving",
+                                                       "business_relevance":  "Directly supports fundraising; \u003c2% donor conversion is a key metric",
+                                                       "target_audience":  "Frequent readers, philanthropically inclined users, knowledge advocates"
+                                                   },
+                                                   {
+                                                       "query":  "Wikimedia Foundation annual report",
+                                                       "platforms":  [
+                                                                         "LinkedIn",
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Informational - stakeholders assessing organizational transparency and governance",
+                                                       "business_relevance":  "Builds trust with institutional partners, major donors, policy makers",
+                                                       "target_audience":  "Nonprofit leaders, grantmakers, journalists, policymakers"
+                                                   },
+                                                   {
+                                                       "query":  "Wikipedia vs Britannica reliability",
+                                                       "platforms":  [
+                                                                         "X",
+                                                                         "Google"
+                                                                     ],
+                                                       "intent":  "Comparative - users evaluating credibility for citation or research",
+                                                       "business_relevance":  "Reinforces Wikipedia\u0027s trust narrative against traditional competitors",
+                                                       "target_audience":  "Educators, students, journalists, fact-checkers"
+                                                   }
+                                               ],
+                     "seo_improvements":  {
+                                              "primary_keyword":  "free online encyclopedia",
+                                              "secondary_keywords":  [
+                                                                         "multilingual encyclopedia",
+                                                                         "volunteer edited encyclopedia",
+                                                                         "nonprofit knowledge platform",
+                                                                         "Wikimedia projects",
+                                                                         "open knowledge"
+                                                                     ],
+                                              "long_tail_keywords":  [
+                                                                         "how to contribute to Wikipedia as a beginner",
+                                                                         "Wikipedia donation where does money go",
+                                                                         "most edited Wikipedia articles 2024",
+                                                                         "Wikipedia reliability for academic citations",
+                                                                         "Wikimedia Commons free media repository"
+                                                                     ],
+                                              "business_keywords":  [
+                                                                        "Wikimedia Foundation donation",
+                                                                        "Wikipedia fundraising campaign",
+                                                                        "become a Wikipedia editor",
+                                                                        "Wikipedia monthly giving",
+                                                                        "support free knowledge"
+                                                                    ],
+                                              "recommended_title":  "Wikipedia â The Free Encyclopedia | 60M+ Articles in 300+ Languages",
+                                              "title_structure":  "Primary Keyword | Scale Metric | Brand",
+                                              "meta_description":  "Explore 60+ million free articles in 300+ languages. Wikipedia is the nonprofit, volunteer-powered encyclopedia anyone can edit. No ads. No paywalls. Just knowledge.",
+                                              "supporting_content":  [
+                                                                         {
+                                                                             "type":  "Service landing page",
+                                                                             "title":  "How Wikipedia Works: Our Editorial Model Explained",
+                                                                             "rationale":  "Addresses credibility questions; targets \u0027Wikipedia reliability\u0027 queries; converts readers to editors"
+                                                                         },
+                                                                         {
+                                                                             "type":  "FAQ",
+                                                                             "title":  "Wikipedia Donation FAQ: Where Your Money Goes",
+                                                                             "rationale":  "Reduces donation friction; answers top donor objections; improves conversion from fundraising banners"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Blog topic",
+                                                                             "title":  "25 Years of Wikipedia: Milestones, Challenges, and What\u0027s Next",
+                                                                             "rationale":  "Leverages anniversary momentum; earns press links; reinforces brand narrative \u0027internet we were promised\u0027"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Industry page",
+                                                                             "title":  "Wikipedia for Educators: Classroom Resources \u0026 Citation Guidelines",
+                                                                             "rationale":  "Captures institutional traffic; builds advocate base; addresses academic skepticism"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Supporting article",
+                                                                             "title":  "Beyond the Encyclopedia: Meet the Wikimedia Family (Commons, Wikidata, Wikivoyage...)",
+                                                                             "rationale":  "Cross-promotes sister projects; increases dwell time; captures long-tail \u0027Wikimedia projects\u0027 searches"
+                                                                         }
+                                                                     ],
+                                              "current_title":  "Wikipedia",
+                                              "current_meta_description":  "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+                                              "title_length":  67,
+                                              "meta_description_length":  165,
+                                              "note":  "Keywords are AI-suggested; no search-volume data is provided because no keyword data source is connected."
+                                          },
+                     "top_services":  [
+                                          {
+                                              "name":  "Free Multilingual Encyclopedia",
+                                              "description":  "Over 60 million articles across 300+ languages, written and maintained by global volunteers. Covers virtually every notable topic with citations.",
+                                              "target_industry":  "Education, Research, Media, General Reference",
+                                              "target_customer":  "Students, researchers, journalists, curious readers worldwide",
+                                              "main_benefit":  "Instant, free access to verified, neutral knowledge without ads or paywalls",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Community-Driven Content Creation",
+                                              "description":  "Open editing model allowing anyone to contribute, improve, or translate articles. Governed by community policies (neutrality, verifiability, no original research).",
+                                              "target_industry":  "Knowledge Management, Open Source, Citizen Science",
+                                              "target_customer":  "Subject-matter experts, hobbyists, students, GLAM professionals",
+                                              "main_benefit":  "Real-time updates, diverse perspectives, self-correcting quality at massive scale",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Wikimedia Commons (Free Media Repository)",
+                                              "description":  "A repository of 100+ million freely licensed images, audio, video, and 3D files usable by anyone for any purpose, integrated across all Wikimedia projects.",
+                                              "target_industry":  "Creative, Education, Publishing, Software Development",
+                                              "target_customer":  "Content creators, educators, designers, developers, researchers",
+                                              "main_benefit":  "Legal certainty for reuse; vast multimedia library; direct article embedding",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Wikidata (Structured Knowledge Base)",
+                                              "description":  "A free, collaborative, multilingual knowledge graph providing structured data to power infoboxes, queries, and external applications (including AI training).",
+                                              "target_industry":  "Data Science, AI/ML, Semantic Web, Library Science",
+                                              "target_customer":  "Developers, data scientists, librarians, digital humanists",
+                                              "main_benefit":  "Machine-readable, queryable, language-independent facts; single source for all Wikipedias",
+                                              "source":  "website"
+                                          },
+                                          {
+                                              "name":  "Sister Projects Ecosystem",
+                                              "description":  "Family of specialized free-knowledge projects: Wiktionary (dictionary), Wikibooks (textbooks), Wikinews (news), Wikiversity (learning), Wikivoyage (travel), Wikisource (primary texts).",
+                                              "target_industry":  "Education, Publishing, Travel, Language Learning",
+                                              "target_customer":  "Language learners, self-directed students, travelers, historians",
+                                              "main_benefit":  "Complementary knowledge formats under same free license and governance",
+                                              "source":  "website"
+                                          }
+                                      ],
+                     "target_audience":  {
+                                             "primary_audience":  [
+                                                                      "Students (K-12 through postgraduate)",
+                                                                      "Researchers and academics",
+                                                                      "Journalists and fact-checkers",
+                                                                      "General knowledge seekers"
+                                                                  ],
+                                             "secondary_audience":  [
+                                                                        "Software developers and data scientists (via Wikidata/API)",
+                                                                        "Content creators and educators (via Commons)",
+                                                                        "Volunteer editors and administrators",
+                                                                        "Donors and philanthropic supporters",
+                                                                        "GLAM institutions (galleries, libraries, archives, museums)"
+                                                                    ],
+                                             "industries":  [
+                                                                "Education",
+                                                                "Media \u0026 Journalism",
+                                                                "Technology \u0026 AI",
+                                                                "Nonprofit \u0026 Philanthropy",
+                                                                "Cultural Heritage",
+                                                                "Publishing"
+                                                            ],
+                                             "business_types":  [
+                                                                    "Educational institutions",
+                                                                    "News organizations",
+                                                                    "Tech companies (search, AI)",
+                                                                    "Nonprofits and foundations",
+                                                                    "Government agencies",
+                                                                    "Individual learners"
+                                                                ],
+                                             "customer_profiles":  [
+                                                                       "High-school student writing a paper, needs reliable citations fast",
+                                                                       "PhD researcher checking a definition or date before deep dive",
+                                                                       "Journalist verifying a claim on deadline",
+                                                                       "Developer training an LLM, needs structured multilingual data",
+                                                                       "Retiree editing articles on local history as a hobby",
+                                                                       "Monthly donor who values free knowledge as a public good"
+                                                                   ],
+                                             "geographic_focus":  "Global (300+ languages; strong in North America, Europe, India, Japan, Latin America; growing in Africa and Southeast Asia)",
+                                             "customer_needs":  [
+                                                                    "Accurate, neutral, well-sourced information",
+                                                                    "Free access without registration or tracking",
+                                                                    "Multilingual content in native language",
+                                                                    "Ability to verify sources and edit errors",
+                                                                    "Transparency about funding and governance",
+                                                                    "Offline/low-bandwidth access options"
+                                                                ],
+                                             "customer_interests":  [
+                                                                        "Lifelong learning",
+                                                                        "Open knowledge / open source movements",
+                                                                        "Digital rights and internet freedom",
+                                                                        "Citizen science and crowdsourcing",
+                                                                        "Language preservation",
+                                                                        "Philanthropy for public goods"
+                                                                    ],
+                                             "recommended_segments":  [
+                                                                          "New editor onboarding (reduce first-edit abandonment)",
+                                                                          "Monthly donor retention (increase lifetime value)",
+                                                                          "Global South language communities (grow underrepresented Wikipedias)",
+                                                                          "Academic partnership programs (cite Wikipedia responsibly)",
+                                                                          "Developer ecosystem (API/Wikidata power users)",
+                                                                          "GLAM-Wiki collaborations (digitize collections)"
+                                                                      ],
+                                             "audience_table":  [
+                                                                    {
+                                                                        "audience":  "Undergraduate students",
+                                                                        "business_type":  "Higher education",
+                                                                        "requirement":  "Credible starting references; citation-ready summaries; multilingual access for language courses"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Investigative journalists",
+                                                                        "business_type":  "News media",
+                                                                        "requirement":  "Rapid fact verification; primary source links; revision history for accountability"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "ML/NLP engineers",
+                                                                        "business_type":  "AI/Technology",
+                                                                        "requirement":  "Clean, structured, multilingual training data (Wikidata dumps); license clarity"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Small-language community members",
+                                                                        "business_type":  "Cultural preservation",
+                                                                        "requirement":  "Tools to build/maintain Wikipedia in their language; orthography support; mobile editing"
+                                                                    },
+                                                                    {
+                                                                        "audience":  "Recurring donors",
+                                                                        "business_type":  "Philanthropy",
+                                                                        "requirement":  "Impact transparency; tax receipts; privacy; recognition; easy payment management"
+                                                                    }
+                                                                ]
+                                         }
+                 },
+    "meta":  {
+                 "provider":  "nvidia",
+                 "model":  "nvidia/nemotron-3-ultra-550b-a55b",
+                 "used_fallback":  false,
+                 "input_tokens":  1866,
+                 "output_tokens":  3502,
+                 "llm_latency_ms":  55693,
+                 "total_ms":  57324,
+                 "estimated_cost_usd":  null,
+                 "cached":  false,
+                 "pages_analyzed":  [
+                                        "https://www.wikipedia.org/"
+                                    ]
+             },
+    "warnings":  [
+                     "Competitors, keywords and queries are AI-generated suggestions; no search-volume or ranking data is included."
+                 ]
+}
