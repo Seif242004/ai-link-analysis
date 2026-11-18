@@ -1,48 +1,10 @@
-﻿python.exe : Traceback (most recent call last):
-At C:\Users\Seif\workspace\ai-link-analysis\run_local3.ps1:6 char:1
-+ & $py -u -m scripts.benchmark https://www.python.org https://fastapi. ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-  File "<frozen runpy>", line 203, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "C:\Users\Seif\workspace\ai-link-analysis\scripts\benchmark.py", line 84, in <module>
-    asyncio.run(main(a.urls, a.models, a.runs))
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 
-196, in run
-    return runner.run(main)
-           ~~~~~~~~~~^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 
-119, in run
-    return self._loop.run_until_complete(task)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", 
-line 725, in run_until_complete
-    return future.result()
-           ~~~~~~~~~~~~~^^
-  File "C:\Users\Seif\workspace\ai-link-analysis\scripts\benchmark.py", line 65, in main
-    (out_dir / f"{spec.replace(':', '_')}__{safe}__{i}.json").write_text(res.text)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\pathlib\_local.py", line 
-555, in write_text
-    return PathBase.write_text(self, data, encoding, errors, newline)
-           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\pathlib\_abc.py", line 651, 
-in write_text
-    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
-         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program 
-Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\pathlib\_local.py", line 
-537, in open
-    return io.open(self, mode, buffering, encoding, errors, newline)
-           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 
-'benchmark_outputs\\nvidia_nvidia\\nemotron-3.5-lightning-30b-a3b__www.python.org__0.json'
-exit code: 1
+﻿[nvidia:z-ai/glm-5.3-flash] https://www.python.org/ run 0: LLM provider 'nvidia' failed after retries: ReadTimeout: 
+[nvidia:z-ai/glm-5.3-flash] https://fastapi.tiangolo.com/ run 0: LLM provider 'nvidia' failed after retries: ReadTimeout: 
+[nvidia:google/gemma-4-31b-it] https://www.python.org/ run 0: LLM provider 'nvidia' failed after retries: ReadTimeout: 
+[nvidia:google/gemma-4-31b-it] https://fastapi.tiangolo.com/ run 0: LLM provider 'nvidia' failed after retries: ReadTimeout: 
+
+| Model | Runs | Valid JSON/schema | Median latency (s) | Avg in tok | Avg out tok | Avg cost / analysis |
+|---|---|---|---|---|---|---|
+| nvidia:nvidia/nemotron-3.5-lightning-30b-a3b | 2 | 2/2 | 15.3 | 2942 | 2227 | n/a |
+| nvidia:z-ai/glm-5.3-flash | 2 | no successful runs | - | - | - | - |
+| nvidia:google/gemma-4-31b-it | 2 | no successful runs | - | - | - | - |

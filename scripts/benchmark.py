@@ -62,7 +62,8 @@ async def main(urls: list[str], models: list[str], runs: int) -> None:
                     except ValueError:
                         pass
                     safe = url.split("//")[1].strip("/").replace("/", "_")
-                    (out_dir / f"{spec.replace(':', '_')}__{safe}__{i}.json").write_text(res.text)
+                    fname = f"{spec}__{safe}__{i}.json".replace(":", "_").replace("/", "_")  # model ids contain '/'
+                    (out_dir / fname).write_text(res.text, encoding="utf-8")
 
     print("\n| Model | Runs | Valid JSON/schema | Median latency (s) | Avg in tok | Avg out tok | Avg cost / analysis |")
     print("|---|---|---|---|---|---|---|")
