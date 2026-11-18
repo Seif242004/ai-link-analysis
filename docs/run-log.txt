@@ -35,3 +35,21 @@ PS>TerminatingError(Invoke-RestMethod): "{"success":false,"error":{"code":"llm_e
   FAILED: The remote server returned an error: (502) Bad Gateway.
 {"success":false,"error":{"code":"llm_error","message":"LLM provider 'nvidia' failed after retries: ReadTimeout: "}}
 Analyzing https://www.wikipedia.org ...
+  OK  tokens 1866/3502  llm 55693 ms  total 57324 ms
+PS>TerminatingError(Invoke-RestMethod): "{"success":false,"error":{"code":"blocked_address","message":"The URL resolves to a private or reserved network address."}}"
+PS>TerminatingError(Invoke-RestMethod): "{"success":false,"error":{"code":"invalid_url","message":"Only http:// and https:// URLs are supported."}}"
+[nvidia:meta/llama-3.3-70b-instruct] https://www.python.org/ run 0: LLM API rejected the request (HTTP 410). Check model name and API key.
+[nvidia:meta/llama-3.3-70b-instruct] https://fastapi.tiangolo.com/ run 0: LLM API rejected the request (HTTP 410). Check model name and API key.
+
+| Model | Runs | Valid JSON/schema | Median latency (s) | Avg in tok | Avg out tok | Avg cost / analysis |
+|---|---|---|---|---|---|---|
+| nvidia:meta/llama-3.3-70b-instruct | 2 | no successful runs | - | - | - | - |
+
+
+warning: in the working copy of 'scripts/benchmark.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/test_link_analysis.py', LF will be replaced by CRLF the next time Git touches it
+
+**********************
+Windows PowerShell transcript end
+End time: 20261118104417
+**********************

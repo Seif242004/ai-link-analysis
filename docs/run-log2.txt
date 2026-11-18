@@ -1,0 +1,22 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261118104703
+Username: SEIF-PC\Seif
+RunAs User: SEIF-PC\Seif
+Configuration Name: 
+Machine: SEIF-PC (Microsoft Windows NT 10.0.26300.0)
+Host Application: powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\Seif\workspace\ai-link-analysis\run_local2.ps1
+Process ID: 37324
+PSVersion: 5.1.26100.9818
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9818
+BuildVersion: 10.0.26100.9818
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Analyzing https://fastapi.tiangolo.com ...
+  OK  model nvidia/nemotron-3-ultra-550b-a55b tokens 3461/3768  llm 110165 ms  total 112065 ms
+Analyzing https://www.djangoproject.com ...
+  OK  model nvidia/nemotron-3-ultra-550b-a55b tokens 2572/3885  llm 88653 ms  total 91787 ms

@@ -1,0 +1,33 @@
+[32mINFO[0m:     Started server process [[36m26604[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:4010[0m (Press CTRL+C to quit)
+2026-11-18 10:47:11,311 INFO httpx: HTTP Request: GET https://fastapi.tiangolo.com/ "HTTP/1.1 200 OK"
+2026-11-18 10:47:11,548 INFO httpx: HTTP Request: GET https://fastapi.tiangolo.com/about/ "HTTP/1.1 200 OK"
+2026-11-18 10:47:11,740 INFO httpx: HTTP Request: GET https://fastapi.tiangolo.com/deployment/https/ "HTTP/1.1 200 OK"
+2026-11-18 10:49:01,922 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 10:49:02,726 INFO httpx: HTTP Request: GET https://fastify.io/ "HTTP/1.1 301 Moved Permanently"
+2026-11-18 10:49:02,860 INFO httpx: HTTP Request: GET https://flask.palletsprojects.com/ "HTTP/1.1 302 Found"
+2026-11-18 10:49:03,000 INFO httpx: HTTP Request: GET https://nestjs.com/ "HTTP/1.1 206 Partial Content"
+2026-11-18 10:49:03,007 INFO httpx: HTTP Request: GET https://www.django-rest-framework.org/ "HTTP/1.1 206 Partial Content"
+2026-11-18 10:49:03,010 INFO app.services.analysis_service: analyzed https://fastapi.tiangolo.com/ pages=3 tokens=3461/3768 cost=$None total=112065ms
+2026-11-18 10:49:03,699 INFO httpx: HTTP Request: GET https://www.djangoproject.com/ "HTTP/1.1 200 OK"
+2026-11-18 10:49:03,859 INFO httpx: HTTP Request: GET https://www.djangoproject.com/foundation/ "HTTP/1.1 200 OK"
+2026-11-18 10:49:04,071 INFO httpx: HTTP Request: GET https://www.djangoproject.com/start/overview/ "HTTP/1.1 200 OK"
+2026-11-18 10:50:32,758 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 10:50:32,783 ERROR asyncio: Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-11-18 10:50:33,785 INFO httpx: HTTP Request: GET https://flask.palletsprojects.com/ "HTTP/1.1 302 Found"
+2026-11-18 10:50:33,797 INFO httpx: HTTP Request: GET https://spring.io/projects/spring-boot "HTTP/1.1 308 Permanent Redirect"
+2026-11-18 10:50:34,698 INFO httpx: HTTP Request: GET https://fastapi.tiangolo.com/ "HTTP/1.1 200 OK"
+2026-11-18 10:50:34,750 INFO httpx: HTTP Request: GET https://rubyonrails.org/ "HTTP/1.1 206 Partial Content"
+2026-11-18 10:50:34,755 INFO httpx: HTTP Request: GET https://laravel.com/ "HTTP/1.1 200 OK"
+2026-11-18 10:50:34,837 INFO app.services.analysis_service: analyzed https://www.djangoproject.com/ pages=3 tokens=2572/3885 cost=$None total=91787ms
